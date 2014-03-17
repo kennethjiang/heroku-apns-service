@@ -1,0 +1,31 @@
+{
+  "name": "heroku-apns-service",
+  "version": "0.1.0",
+  "description": "APNs service that you can run in heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennethjiang/heroku-apns-service.git"
+  },
+  "keywords": [
+    "APNS",
+    "heroku"
+  ],
+  "author": "Kenneth Jiang",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/kennethjiang/heroku-apns-service/issues"
+  },
+  "homepage": "https://github.com/kennethjiang/heroku-apns-service",
+  "dependencies": {
+    "logfmt": "^1.0.0-pre",
+    "express": "^3.4.8",
+    "apn": "^1.4.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
